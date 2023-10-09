@@ -1,0 +1,46 @@
+body {
+  
+}
+
+.game-map {
+    margin-left: 10%;
+    margin-top: 30%;
+}
+
+.tile {
+    width: 16px; /* Width of each tile */
+    height: 16px; /* Height of each tile */
+   
+    background-color: blue; /* Green tile color */
+    
+}
+
+.tile_row {
+    display: flex;
+}
+
+.sol {
+    background-image: url("/sprits/sol.png");
+}
+
+.solid {
+    background-image: url('/sprits/solid-block.png');
+}
+
+.single_block {
+    background-image: url('/sprits/single-block.png');
+}
+
+.incassable {
+    background-image: url('/sprits/incassable.png');
+}
+
+#player-character1 {
+    width: 48px; /* Adjust as needed */
+    height: 48px; /* Adjust as needed */
+    background-image: url("/sprits/player/P1/P1.gif"); /* Path to your player character image */
+    background-size: cover; /* Adjust as needed to fit the container */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
